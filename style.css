@@ -10,6 +10,7 @@
   color: red;
   font-weight: bold;
   border: 3px solid red;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -57,7 +58,11 @@ a:hover {
   
 }
 .main{
-  border: 3px solid red; padding: 30px;
+  border: 3px solid red;
+   border-radius: 20px;
+
+height: 400px;
+  padding: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
