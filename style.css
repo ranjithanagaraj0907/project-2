@@ -1,8 +1,8 @@
 
 body
 {
- 
-  margin: 25%;
+ margin-left: 20%;
+ margin-right: 20%;
 }
 
 .heading{
@@ -10,7 +10,7 @@ body
 }   
 .heading2{
  padding: 20px;margin: 25%; display: inline-block; justify-content: center;
- margin-top: -400px;
+ margin-top: 10px;
 }
 
 .card{
@@ -32,9 +32,9 @@ body
 .bg-text{
   color: red;
   font-weight: bold;
-  border: 3px solid red;
+  border: 3px solid lightcoral;
   position: absolute;
-  top: 95%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -54,11 +54,11 @@ a:hover {
   color: black;
 }
 .main{
-  border: 3px solid red;
+  border: 3px solid lightpink;
   border-radius: 20px;
-  
   height: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2) ;
   
 }
